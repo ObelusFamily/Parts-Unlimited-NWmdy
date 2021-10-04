@@ -15,7 +15,7 @@ const User = mongoose.model("User");
 const SEED = 12345678;
 faker.seed(SEED);
 
-const NUM_ITEMS = 10;
+const NUM_ITEMS = 100;
 
 const tags = [];
 for (let i = 0; i < NUM_ITEMS; i++) {
