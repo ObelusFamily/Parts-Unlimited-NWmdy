@@ -5,6 +5,7 @@
 1. Make sure you have Node 15 installed and enabled.
 2. Run `yarn` in the root directory of the repository.
 3. Make sure you have mongodb installed and running and create an empty database called `wilco`.
+4. To seed your database with dummy data, run `yarn run seeds` in the `backend` directory.
 
 ### Running
 
