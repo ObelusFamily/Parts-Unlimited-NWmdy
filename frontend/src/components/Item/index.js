@@ -55,9 +55,11 @@ class Item extends React.Component {
 
         <div className="container page">
           <div className="row">
-            <div className="col-3">
-              <img src={this.props.item.image} className="item-img" />
-            </div>
+            {this.props.item.image && (
+              <div className="col-3">
+                <img src={this.props.item.image} className="item-img" />
+              </div>
+            )}
             <div className="col-9">
               <div dangerouslySetInnerHTML={markup}></div>
 
