@@ -1,5 +1,6 @@
 {
   "name": "PartsUnlimited",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -10,6 +11,7 @@
   "repository": {},
   "bugs": {},
   "homepage": "",
+  "workspaces": ["backend", "frontend"],
   "dependencies": {
     "concurrently": "^6.0.0",
     "pg": "^8.5.1",
